@@ -1,28 +1,12 @@
 #custom{
     border: 0px black;
     border-radius: 20px;
-    margin: 50px 200px ;
+    margin: 2.5rem 8rem ;
     /* height: 65px */
     
     
 }
-nav div div span a{
-    padding-right: 1.5rem;
-    color: rgb(255 255 255);
-    font-weight: 700;
-    font-size: 22px;
-    text-shadow: 1px 1px 2px #ccad00;
-    /* -webkit-text-stroke: 1px #ffd900; */
-    /* margin: 10px; */
-    padding: 10px;
-    border-radius: 10px;
-    background-color: #ffda00;
-    text-decoration: none;
-    text-align: center;
-    display: flex;
-    z-index: -1;
-   
-}
+
 
 p::before{
     background: url('./contentimages/background.jpg');
@@ -42,7 +26,7 @@ p::before{
 }
 
 .fontsize{
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 500;
     padding: 1em;
     text-decoration: none;
