@@ -27,7 +27,7 @@ p::before{
 }
 
 .fontsize{
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 500;
     padding: 1em;
     text-decoration: none;
@@ -52,4 +52,11 @@ body{
     opacity: 0.2%;
     height: fit-content;
     width: fit-content;
+}
+
+#landing{
+   
+        display: flex;
+        align-items: center;
+        height: 332px;
 }
