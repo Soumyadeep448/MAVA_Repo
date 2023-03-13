@@ -8,8 +8,8 @@
 }
 
 
-p::before{
-    background: url('./contentimages/background.jpg');
+#beforethis::before{
+    background: url('./contentimages/landingbackground.jpg');
     content:"";
     background-repeat: no-repeat;
     background-size:cover;
@@ -56,7 +56,18 @@ body{
 
 #landing{
    
-        display: flex;
-        align-items: center;
-        height: 332px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* position: absolute; */
+    margin-left: 12vw ;
+    height: 75vh;
+    font-size: 40px;
+    color: white;
+    font-weight: 500;
+}
+
+#info{
+    margin-top: 100vh;
+    background-color: white;
 }
