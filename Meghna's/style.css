@@ -14,7 +14,6 @@
     background-repeat: no-repeat;
     background-size:cover;
     position: absolute;
-   
     top: 0;
     left: 0;
     width:100%;
@@ -38,8 +37,8 @@ body{
     /* background-image: url(./content\ images/background.jpg); */
     /* background-repeat: no-repeat; */
     /* background-position: center center; */
-    background-color: black;
-    height: 888px;
+    /* background-color: black; */
+   
     background-size: cover;
 }
 
@@ -54,20 +53,44 @@ body{
     width: fit-content;
 }
 
-#landing{
+#landingcontainer{
    
     display: flex;
-    align-items: center;
-    /* justify-content: center; */
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
     /* position: absolute; */
-    margin-left: 12vw ;
+    margin-left: 12vw;
+    margin-bottom: 8.1vh;
     height: 75vh;
-    font-size: 40px;
+    font-size: 60px;
     color: white;
     font-weight: 500;
+    width: 42vw;
 }
 
-#info{
-    margin-top: 100vh;
+#landingsubtext{
+    font-size: 20px;
+    
+}
+
+#infocontainer{
+    /* margin-top: 100vh; */
     background-color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px;
+    
+}
+
+.infobox{
+    margin: 40px;
+    padding: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#customcontactus{
+    margin-right: 74vh;
+    margin-top: 2vh;
 }
