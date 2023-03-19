@@ -9,7 +9,7 @@
 
 
 #beforethis::before{
-    background: url('./contentimages/landingbackground.jpg');
+    background: url('./contentimages/landingbackground2.png');
     content:"";
     background-repeat: no-repeat;
     background-size:cover;
@@ -19,7 +19,7 @@
     width:100%;
     height: 100%;
     z-index: -1;
-    opacity: 0.3;
+    /* opacity: 0.3; */
     background-attachment: fixed;
 
 
@@ -42,13 +42,13 @@ body{
     background-size: cover;
 }
 
-.opauqe{
+/* .opauqe{
         opacity: 0.2;
-}
+} */
 
 #blackness{
-    background-color: black;
-    opacity: 0.2%;
+    /* background-color: black;
+    opacity: 0.2%; */
     height: fit-content;
     width: fit-content;
 }
@@ -76,15 +76,16 @@ body{
 
 #infocontainer{
     /* margin-top: 100vh; */
-    background-color: white;
+    
     display: flex;
     flex-direction: row;
-    margin: 10px 20px;
+    margin: 10px 10px;
+    padding: 40px 40px;
     
 }
 
 .infobox{
-    margin: 40px;
+    margin: 40px 40px ;
     padding: 40px;
     border: 2px solid black;
     border-radius: 10px;
