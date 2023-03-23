@@ -2,14 +2,19 @@
     border: 0px black;
     border-radius: 20px;
     margin: 2.5rem 8rem ;
+    
     /* height: 65px */
     
     
 }
 
+#academyname{
+    color: rgb(255, 217, 0);
+}
+
 
 #beforethis::before{
-    background: url('./contentimages/landingbackground2.png');
+    background: url('./contentimages/landingbackground2-transformed.png');
     content:"";
     background-repeat: no-repeat;
     background-size:cover;
@@ -33,18 +38,7 @@
     color: white;
 }
 
-body{
-    /* background-image: url(./content\ images/background.jpg); */
-    /* background-repeat: no-repeat; */
-    /* background-position: center center; */
-    /* background-color: black; */
-   
-    background-size: cover;
-}
 
-/* .opauqe{
-        opacity: 0.2;
-} */
 
 #blackness{
     /* background-color: black;
@@ -69,29 +63,96 @@ body{
     width: 42vw;
 }
 
-#landingsubtext{
-    font-size: 20px;
+#subtext{
+    font-size: 15px;
+    
     
 }
 
 #infocontainer{
     /* margin-top: 100vh; */
-    
+    background-color: rgb(241, 241, 241);
     display: flex;
     flex-direction: row;
-    margin: 10px 10px;
-    padding: 40px 40px;
-    
+    margin: 62px 360px;
+    border-radius: 10px;
+   
 }
 
 .infobox{
-    margin: 40px 40px ;
-    padding: 40px;
-    border: 2px solid black;
-    border-radius: 10px;
+    
+    padding: 74px 142px;
+    /* border: 2px solid black; */
+    border-radius: 0px;
 }
 
 #customcontactus{
     margin-right: 74vh;
     margin-top: 2vh;
+    font-weight: 500;
+}
+
+#customcontactus:hover{
+    color: white;
+   
+    /* border: 2px solid white; */
+    background-color: rgb(255, 174, 0);
+    
+}
+
+
+.infoheading{
+    font-size: 40px;
+    display: block;
+    margin-bottom: 5px;
+    /* color: #00a1ff; */
+    color:black ;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#leftinfo{
+    background-image: url(./contentimages/infochanging/leftinfo.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-position: -4px;
+    background-size: 40vh;
+    height: 55vh;
+    width: 70vh;
+    
+}
+
+#rightinfo{
+    padding: 98px 22px;
+    height: 55vh;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    overflow-y: scroll; 
+    
+}
+
+#rightinfo::-webkit-scrollbar{
+    display: none;
+}
+
+.subheading{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    color:  rgb(255, 217, 0);
+}
+
+
+
+#explore{
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    /* border: 2px solid black; */
+    margin-top: 9rem;
+    font-size:xx-large;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(255, 217, 0) ;
+    
 }
